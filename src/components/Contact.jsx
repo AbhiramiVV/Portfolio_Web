@@ -24,17 +24,12 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    //template_gon6lbw
-    //service_8do2ipm
-    //hhGt9QXiGSWeRTCtp
-
     setLoading(true);
 
     emailjs
       .send(
-        "service_8do2ipm",
-        "template_gon6lbw",
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Abhirami",
@@ -42,13 +37,13 @@ const Contact = () => {
           to_email: "abhiramiofficial123@gmail.com",
           message: form.message,
         },
-        "hhGt9QXiGSWeRTCtp"
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
-
       .then(
         () => {
           setLoading(false);
-          alert("Thank You I will Get back to you as soon as possible");
+          alert("Thank you! I will get back to you as soon as possible.");
+
           setForm({
             name: "",
             email: "",
@@ -57,8 +52,13 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.log(error);
-          alert("something went wrong");
+          console.error("EmailJS Error Detail:", error);
+
+          alert(
+            `Oops! ${
+              error.text || "Something went wrong"
+            }. Please verify your IDs in the .env file.`
+          );
         }
       );
   };

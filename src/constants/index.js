@@ -41,9 +41,9 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 const counterItems = [
-  { value: 3, suffix: "+", label: "Years of Experience" },
-  { value: 6, suffix: "+", label: "Highly Satisfied Clients" },
-  { value: 50, suffix: "+", label: "Completed Projects" },
+  { value: 2, suffix: "+", label: "Years of Experience" },
+  { value: 10, suffix: "+", label: "Highly Satisfied Clients" },
+  { value: 15, suffix: "+", label: "Completed Projects" },
   { value: 95, suffix: "%", label: "Client Retention Rate" },
 ];
 const logoIconsList = [
@@ -60,9 +60,9 @@ const logoIconsList = [
   { imgPath: "/images/logos/company-logo-11.png" },
 ];
 const companies = [
-  { name: "Vodafone" },
+  { name: "Ortmor Agency" },
   { name: "Qiddiya" },
-  { name: "Toyota" },
+  { name: "Gym Stream" },
 ];
 
 const abilities = [
@@ -85,57 +85,57 @@ const abilities = [
 const expCards = [
   {
     review:
-      "Abhirami started her career as a Full Stack Developer Intern at Brototype, where she gained extensive hands-on experience in building scalable applications and integrating payment gateways. She consistently delivered high-quality work with modern tech stacks.",
-    imgPath: "/images/brototype-logo.png",
-    logoPath: "/images/brototype.png",
-    title: "Full Stack Developer Intern",
-    company: "Brototype",
-    date: "Jan 2023 – November 2023",
-    responsibilities: [
-      "Developed full-stack applications using React.js, Next.js, and Node.js.",
-      "Integrated Razorpay and PayPal payment gateways with secure API flows.",
-      "Built reusable UI components with SCSS and Tailwind CSS.",
-      "Implemented real-time features with Socket.IO (chat, notifications, live updates).",
-      "Collaborated with mentors and peers to improve app performance and deployment.",
-    ],
-    techStack:
-      "React.js, Next.js, Node.js, JavaScript, SCSS, Tailwind CSS, Socket.IO, Razorpay, PayPal",
-  },
-  {
-    review:
       "Currently at Ortmor, Abhirami is working as a Full Stack Developer, handling both frontend and backend responsibilities. She leads feature development, optimizes performance, and ensures scalability of applications.",
     imgPath: "/images/ortmor-logo.png",
     logoPath: "/images/ortmor-logo.png",
     title: "Full Stack Developer",
-    company: "Ortmor",
+    company: "Ortmor Agency",
     date: "December 2023 – Present",
     responsibilities: [
-      "Developing scalable full-stack applications using React.js, Next.js, and Node.js.",
-      "Building real-time features with Socket.IO for chats, notifications, and live systems.",
-      "Optimizing frontend performance with lazy loading, caching, and reusable components.",
-      "Integrating REST APIs and third-party services into client-facing applications.",
-      "Collaborating with cross-functional teams while maintaining high coding standards.",
+      "Architected and launched the company corporate website using Next.js with SSR and SSG, improving SEO and Core Web Vitals.",
+      "Contributed to Gym Stream, a multi-tenant SaaS fitness platform, managing global state with Redux Toolkit and integrating payment gateways (Stripe, Razorpay).",
+      "Implemented WebSocket-based real-time workout streaming and built role-aware UI components for Gym Owners and Admins.",
+      "Developed a scalable MERN dashboard for Qiddiya E-sports World Cup, managing real-time match data and AWS S3 media storage.",
+      "Built Yas In School, an educational platform with QR scanning, backed by a Node.js REST API and deployed on DigitalOcean with Nginx.",
     ],
     techStack:
-      "React.js, Next.js, Node.js, JavaScript, SCSS, Tailwind CSS, Socket.IO",
+      "React.js, Next.js, Node.js, TypeScript, Tailwind CSS, Socket.IO, AWS S3, DigitalOcean, Nginx",
+  },
+  {
+    review:
+      "During the intensive MERN stack program at Brototype, Abhirami built several full-stack applications and gained proficiency in modern web technologies through hands-on development and real-world projects.",
+    imgPath: "/images/brototype-logo.png",
+    logoPath: "/images/brototype.png",
+    title: "MERN Stack Developer",
+    company: "Brototype",
+    date: "2022 – 2023",
+    responsibilities: [
+      "Completed an intensive 600+ hour hands-on training program in Full Stack MERN development.",
+      "Built 'Event Management System', a full-stack platform with role-based portals for Users, Vendors, and Admins.",
+      "Developed 'sKo E-Commerce Platform', implementing product catalog, cart management, and Razorpay integration.",
+      "Gained deep expertise in React, Node.js, Express.js, MongoDB, REST APIs, and Agile development workflows.",
+      "Implemented real-time features using WebSockets and handled complex relational data modelling in MongoDB.",
+    ],
+    techStack:
+      "React.js, Node.js, Express, MongoDB, JavaScript, Redux Toolkit, Tailwind CSS, Socket.IO, PayPal, Razorpay",
   },
 ];
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-    link: "https://www.instagram.com/AbhiramiVV/",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/github.webp",
     link: "https://github.com/AbhiramiVV",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
     link: "https://www.linkedin.com/in/abhirami-v-v-28a876259/",
+  },
+  {
+    name: "email",
+    imgPath: "/images/chat.png",
+    link: "mailto:abhiramiofficial123@gmail.com",
   },
 ];
 
@@ -195,78 +195,63 @@ export const navLinks = [
 
 const services = [
   { title: "Full Stack Web Development", icon: web },
-  { title: "React  & Next js Development", icon: mobile },
-  { title: "Backend Node Js Services", icon: backend },
-  { title: "Touchscreen & Interactive Screen Design", icon: creator },
+  { title: "React & Next.js Development", icon: mobile },
+  { title: "Backend Node.js Services", icon: backend },
+  { title: "SaaS & Cloud Architecture", icon: creator },
 ];
 
 const technologies = [
-  { name: "CSS3", icon: css },
-  { name: "js", icon: javascript },
-  { name: "ts", icon: typescript },
-  { name: "rjs", icon: reactjs },
-  { name: "rtkt", icon: redux },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
+  { name: "TypeScript", icon: typescript },
   { name: "Next JS", icon: nextJs },
+  { name: "React JS", icon: reactjs },
+  { name: "Node JS", icon: nodejs },
+  { name: "Redux Toolkit", icon: redux },
+  { name: "Tailwind CSS", icon: tailwind },
   { name: "MongoDB", icon: mongodb },
+  { name: "Socket.io", icon: socket },
   { name: "Three JS", icon: threejs },
-  { name: "git", icon: git },
-  { name: "figma", icon: figma },
-  { name: "socket.io", icon: socket },
+  { name: "Git", icon: git },
+  { name: "Figma", icon: figma },
+  { name: "AWS", icon: docker },
+  { name: "JavaScript", icon: javascript },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "Ortmor Agency",
+    icon: nextJs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "December 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected and launched the company website using Next.js with SSR/SSG, improving SEO ranking and performance.",
+      "Contributed to Gym Stream, a SaaS fitness streaming platform, managing complex multi-tenant data flows using RTK.",
+      "Integrated Stripe and Razorpay payment gateways and implemented real-time workout streaming with Socket.io.",
+      "Built a scalable MERN stack dashboard for Qiddiya E-sports World Cup and Yas In School educational platform.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "MERN Stack Developer (Trainee)",
+    company_name: "Brototype",
+    icon: reactjs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed an intensive 600+ hour training program in Full Stack MERN development.",
+      "Engineered an Event Management System with real-time chat, PayPal integration, and RBAC.",
+      "Developed sKo E-Commerce Platform with Razorpay integration and SSR using Handlebars.",
+      "Applied indexed MongoDB strategies for efficient querying and modelled complex relational data.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "M.Sc. Computer Science",
+    company_name: "Kannur University",
+    icon: web,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2020 - 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed Master of Science in Computer Science, building a strong foundation in software engineering and algorithms.",
+      "Studied core subjects including Data Structures, Database Management, and Web Technologies.",
     ],
   },
 ];
@@ -300,31 +285,31 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Sko",
+    name: "Event Management System",
     description:
-      "Sko is an e-commerce platform designed for purchasing shoes online. Explore our user-friendly e-commerce website where you can discover and purchase dresses that match your style.It provides a seamless shopping experience with secure payment integration.",
+      "A full-stack event management platform with role-based portals, real-time chat using Socket.io, and secure PayPal payment integration. Features comprehensive booking management and RBAC.",
     tags: [
-      { name: "HBS", color: "blue-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "Socket.io", color: "pink-text-gradient" },
+      { name: "PayPal", color: "teal-text-gradient" },
+      { name: "Redux Toolkit", color: "orange-text-gradient" },
+    ],
+    image: Taskify,
+    source_code_link: "https://github.com/AbhiramiVV/Elance_Magic-Project",
+  },
+  {
+    name: "sKo E-Commerce",
+    description:
+      "A full-stack shoe e-commerce platform featuring product catalog, cart management, Razorpay integration, and a secure admin dashboard. Optimized for SEO using Handlebars SSR.",
+    tags: [
+      { name: "Node.js", color: "blue-text-gradient" },
       { name: "MongoDB", color: "green-text-gradient" },
-      { name: "Node.js", color: "pink-text-gradient" },
+      { name: "Handlebars", color: "pink-text-gradient" },
       { name: "Razorpay", color: "yellow-text-gradient" },
     ],
     image: Aeshion,
     source_code_link: "https://github.com/AbhiramiVV/sKo-e-commerce-project",
-  },
-  {
-    name: "Elance Magic",
-    description:
-      "Elance Magic is an event management application that enables users to browse and book events in specific locations. Vendors represent event management teams, and users can chat directly with them to clarify event-related queries.",
-    tags: [
-      { name: "React js", color: "blue-text-gradient" },
-      { name: "MongoDB", color: "green-text-gradient" },
-      { name: "Node.js", color: "pink-text-gradient" },
-      { name: "PayPal", color: "teal-text-gradient" },
-      // { name: "Socket.io", color: "orange-text-gradient" },
-    ],
-    image: Taskify,
-    source_code_link: "https://github.com/AbhiramiVV/Elance_Magic-Project",
   },
 ];
 

@@ -45,13 +45,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
       >
-        MERN Stack & Web3 Developer specializing in React.js, Node.js, and
-        blockchain integration. I build high-performance, scalable full-stack
-        apps with clean, maintainable code—delivered on time. Passionate about
-        decentralized tech, UI/UX excellence, and optimizing performance. A
-        self-learner constantly exploring the latest in web dev and Web3 to
-        create future-proof solutions. Let’s turn ideas into secure,
-        user-centric digital experiences.
+        Results-driven Full Stack Developer with 2+ years of professional
+        experience designing and delivering scalable web applications using the
+        MERN stack (MongoDB, Express.js, React, Node.js). Proficient in
+        TypeScript, Next.js, REST APIs, WebSockets, and cloud deployment on AWS
+        and DigitalOcean. Experienced in Agile development workflows, Git-based
+        version control, and cross-functional collaboration. Adept at
+        translating complex business requirements into performant, maintainable
+        code with a focus on clean architecture, SEO optimization, and
+        responsive UI/UX.
       </motion.p>
 
       <p className={`${styles.sectionSubText} mt-16 mb-3`}>Services</p>
